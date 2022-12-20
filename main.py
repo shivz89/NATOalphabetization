@@ -1,6 +1,6 @@
 import pandas
 
-df = pandas.read_csv('workingCSV/NATO-alphabet-start/nato_phonetic_alphabet.csv')
+df = pandas.read_csv('nato_phonetic_alphabet.csv')
 alphabet_dict = {row.letter:row.code for (index,row) in df.iterrows()}
 
 
